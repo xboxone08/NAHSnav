@@ -1,0 +1,13 @@
+#map {
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 0;
+}
+
+#route-overlay {
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 1;
+}

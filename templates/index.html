@@ -1,1 +1,6 @@
 {% extends 'base.html' %}
+
+{% block body %}
+  <img id="map" src="{{ url_for('static', filename='img/map.png') }}" alt="Unfortunately, the map didn't load.">
+  <canvas id="route-overlay">Unfortunately your browser isn't able to draw the route. Make sure it supports HTML5 and has JS enabled.</canvas>
+{% endblock %}
